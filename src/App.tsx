@@ -57,11 +57,30 @@ function App() {
     }
   }, []);
 
+  useEffect(() => {
+    const fetchDefaultPhotos = async () => {
+      const defaultSearch = "cat";
+      setHasSearched(true);
+      const url = `https://api.unsplash.com/search/photos?per_page=29&query=${defaultSearch}`;
+      setApiUrl(url);
+      const response = await fetch(url, {
+        headers: {
+          'Authorization': 'Client-ID yyRFjMpC72RvGLTEh_P7SDd7393-PTcpn0ghdrH2SYY',
+          'Content-Type': 'application/json'
+        }
+      });
+      const data = await response.json();
+      setPhotos(data.results);
+    };
+
+    fetchDefaultPhotos();
+  }, []);
+
   return (
     <div>
       <header ref={headerRef}>
         <h5>Buscador de Imágenes </h5>
-        <p>Para comenzar una busqueda presiona enter</p>
+        <p style={{ color: '#7c036f' }}>Para comenzar una busqueda presiona enter</p>
         <Formik
           initialValues={{ search: "" }}
           onSubmit={async (values) => {
@@ -95,12 +114,11 @@ function App() {
             </div>
           </Form>
           
-
         </Formik>
         {alertMessage && <AlertMessage message={alertMessage} />}
         <div className="container-view-api">
           <p>Peticion:</p>
-          <p>{apiUrl}</p>
+          <p style={{ color: '#007fb1' }}>{apiUrl}</p>
         </div>
       </header>
       <div className="container" style={{ paddingTop: `${headerHeight}px` }}>

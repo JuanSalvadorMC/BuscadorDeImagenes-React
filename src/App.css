@@ -45,7 +45,14 @@ article > p {
     color: #494949;
 }
 article:hover {
-    box-shadow: 0 3px 15px rgba(0,0,0,0.3);
+    box-shadow: 0 3px 15px #0064b0;
 }
 .container-view-api{
+}
+article:nth-child(even):hover {
+    box-shadow: 0 3px 15px #0064b0; /* Color para artículos pares */
+}
+
+article:nth-child(odd):hover {
+    box-shadow: 0 3px 15px #b8092ff6; /* Color para artículos impares */
 }
