@@ -8,7 +8,7 @@ Este proyecto es una aplicación web desarrollada con React que permite buscar i
 // Vista previa de la sección principal
 
 <p align="center">
-  <img src="assets/images/Preview_01.PNG" alt="Hero view" width="800"/>
+  <img src="./src/assets/images/Preview_01.PNG" alt="Hero view" width="800"/>
 </p>
 
 ---
@@ -28,8 +28,8 @@ Este proyecto es una aplicación web desarrollada con React que permite buscar i
 ## 📱 Responsive Design
 
 <p align="center">
-  <img src="assets/images/Preview_02.PNG" alt="Responsive view 1" width="200"/>
-  <img src="assets/images/Preview_03.PNG" alt="Responsive view 2" width="200"/>
+  <img src="./src/assets/images/Preview_02.PNG" alt="Responsive view 1" width="200"/>
+  <img src="./src/assets/images/Preview_03.PNG" alt="Responsive view 2" width="200"/>
 </p>
 
 ## 📦 Instalación
