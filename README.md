@@ -2,14 +2,11 @@
 # 🖼️ Buscador de Imágenes con React
 
 <p align="center">
-  <img src="./src/assets/images/Preview_02.PNG" alt="Hero view" width="900"/>
+  <img src="./src/assets/images/Preview_02.PNG" alt="Hero view" width="1000"/>
 </p>
 
-Este proyecto es una aplicación web desarrollada con React que permite buscar imágenes de manera interactiva. Utiliza tecnologías modernas como Vite para el desarrollo rápido y eficiente.
+Aplicación web desarrollada con React que permite buscar imágenes de manera interactiva. 
 
----
-
----
 ## 🚀 Características
 
 - 🔍 **Búsqueda de imágenes**: Encuentra imágenes rápidamente.
@@ -24,7 +21,7 @@ Este proyecto es una aplicación web desarrollada con React que permite buscar i
 
 
 
-## 📦 Instalación
+## 🏃‍♂️ Cómo levantar el proyecto
 
 Sigue estos pasos para configurar y ejecutar el proyecto en tu máquina local:
 
@@ -43,21 +40,13 @@ Sigue estos pasos para configurar y ejecutar el proyecto en tu máquina local:
    npm install
    ```
 
-## 🏃‍♂️ Cómo levantar el proyecto
-
-1. Para iniciar el servidor de desarrollo, ejecuta:
+4. Para iniciar el servidor de desarrollo, ejecuta:
    ```bash
    npm run dev
    ```
 
-2. Abre tu navegador y ve a la URL que aparece en la terminal (por defecto: [http://localhost:5173](http://localhost:5173)).
+5. Abre tu navegador y ve a la URL que aparece en la terminal (por defecto: [http://localhost:5173](http://localhost:5173)).
 
-## 📜 Scripts disponibles
-
-- `npm run dev`: Inicia el servidor de desarrollo.
-- `npm run build`: Genera una versión optimizada para producción.
-- `npm run preview`: Previsualiza la versión de producción.
-- `npm run lint`: Ejecuta el linter para verificar errores de estilo.
 
 ## 🤝 Contribuciones
 
