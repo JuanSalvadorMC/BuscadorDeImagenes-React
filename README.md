@@ -2,6 +2,16 @@
 
 Este proyecto es una aplicación web desarrollada con React que permite buscar imágenes de manera interactiva. Utiliza tecnologías modernas como Vite para el desarrollo rápido y eficiente.
 
+---
+
+## 🔍 Preview
+// Vista previa de la sección principal
+
+<p align="center">
+  <img src="assets/previews/Preview_01.PNG" alt="Hero view" width="800"/>
+</p>
+
+---
 ## 🚀 Características
 
 - 🔍 **Búsqueda de imágenes**: Encuentra imágenes rápidamente.
@@ -13,6 +23,14 @@ Este proyecto es una aplicación web desarrollada con React que permite buscar i
 - [React](https://reactjs.org/) ⚛️
 - [Vite](https://vitejs.dev/) ⚡
 - [Formik](https://formik.org/) 📋
+
+---
+## 📱 Responsive Design
+
+<p align="center">
+  <img src="assets/previews/Preview_02.PNG" alt="Responsive view 1" width="200"/>
+  <img src="assets/previews/Preview_03.PNG" alt="Responsive view 2" width="200"/>
+</p>
 
 ## 📦 Instalación
 
