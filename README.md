@@ -1,54 +1,60 @@
-# React + TypeScript + Vite
+# 🖼️ Buscador de Imágenes con React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una aplicación web desarrollada con React que permite buscar imágenes de manera interactiva. Utiliza tecnologías modernas como Vite para el desarrollo rápido y eficiente.
 
-Currently, two official plugins are available:
+## 🚀 Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔍 **Búsqueda de imágenes**: Encuentra imágenes rápidamente.
+- 🎨 **Interfaz moderna**: Diseño limpio y atractivo.
+- ⚡ **Rendimiento optimizado**: Gracias a Vite y React.
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologías utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- [React](https://reactjs.org/) ⚛️
+- [Vite](https://vitejs.dev/) ⚡
+- [Formik](https://formik.org/) 📋
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 📦 Instalación
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Sigue estos pasos para configurar y ejecutar el proyecto en tu máquina local:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+1. Clona este repositorio:
+   ```bash
+   git clone <URL_DEL_REPOSITORIO>
+   ```
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+2. Navega al directorio del proyecto:
+   ```bash
+   cd BuscadorDeImagenes-React
+   ```
+
+3. Instala las dependencias:
+   ```bash
+   npm install
+   ```
+
+## 🏃‍♂️ Cómo levantar el proyecto
+
+1. Para iniciar el servidor de desarrollo, ejecuta:
+   ```bash
+   npm run dev
+   ```
+
+2. Abre tu navegador y ve a la URL que aparece en la terminal (por defecto: [http://localhost:5173](http://localhost:5173)).
+
+## 📜 Scripts disponibles
+
+- `npm run dev`: Inicia el servidor de desarrollo.
+- `npm run build`: Genera una versión optimizada para producción.
+- `npm run preview`: Previsualiza la versión de producción.
+- `npm run lint`: Ejecuta el linter para verificar errores de estilo.
+
+## 🤝 Contribuciones
+
+¡Las contribuciones son bienvenidas! Si deseas contribuir, por favor abre un issue o envía un pull request.
+
+
+
+---
+
+¡Gracias disfruten el proyecto! 💻✨
