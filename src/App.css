@@ -2,12 +2,15 @@
     display: flex;
     background-color: #eee;
     justify-content: center;
-    width: 99vw;
-    margin: 220px 0 0 0px;
+    margin: 4rem 0 0 0px;
 }
 
 .center{
-    column-count: 3;
+    display: flex;
+    flex-wrap: wrap;
+    /* column-count: 3; */
+    justify-content: center;
+    width: 1200px;
     width: 1200px;
 }
 
@@ -39,9 +42,10 @@ article > h3  {
 }
 article > p {
     margin: 0px 15px 15px; ;
+    color: #494949;
 }
 article:hover {
-    box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+    box-shadow: 0 3px 15px rgba(0,0,0,0.3);
 }
 .container-view-api{
 }
